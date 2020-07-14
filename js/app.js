@@ -52,3 +52,17 @@ for (var i = 0; i < ice.length; i++) {
     console.log(ice[i]);
 }
 console.log(total);
+
+// REVIEW WITH DAVID OR AUSTIN BRUH
+
+// LAST QUESTION FROM HOMEWORK 07/13/20
+
+var consoleArray = [1, 'a', 2, 'b', 3, 'c']
+
+function consoleAnArray(myFirstArgument) {
+    for(var i = 0; i < myFirstArgument.length; i++) {
+        console.log(myFirstArgument[i])
+    }
+}
+
+consoleAnArray(consoleArray);
